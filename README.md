@@ -8,6 +8,8 @@ As a Senior Full Stack Developer, you will be tasked with modernizing a legacy C
 Task
 - Analyze the provided legacy code snippet (simulated here as a simple Classic ASP code).
 - Identify potential security vulnerabilities and suggest improvements.
+  1. SQL Injection: Request("username") permits that the user directly insert malicious code using: ' OR '1' = '1'.
+  2. XSS rs("Name") exposes the app to XSS attacks.
 - Refactor the code into a modern ASP.NET Core format (C#) with an emphasis on security best practices.
 
 
